@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyGreetings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_birthday">Birthday</string>
+    <string name="title_activity_annevarsary">Annevarsary</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_activity_description1">Description1</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_features">Features</string>
+    <string name="title_activity_admin1">Admin1</string>
+</resources>

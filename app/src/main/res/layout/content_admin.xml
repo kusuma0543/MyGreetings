@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/in"
+    tools:context="com.k3ench.mygreetings.Admin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a0000000"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:id="@+id/Name"
+            android:hint="Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phno"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:hint="Phone Number"
+            android:inputType="phone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lik"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dob"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:hint="DOB"
+                android:inputType="date"
+                android:layout_weight="2"/>
+
+            <Button
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn2"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:background="@drawable/ic_assignment_ind_black_24dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/partnername"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:hint="Partner_name"
+            android:inputType="text"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lik1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dom"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:hint="DOM"
+            android:inputType="text"
+            android:layout_weight="2"/>
+            <Button
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn3"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:background="@drawable/ic_p"/>
+            </LinearLayout>
+
+        <Button
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="Register"
+
+            />
+    </LinearLayout>
+</LinearLayout>

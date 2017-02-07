@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.k3ench.mygreetings.Description"
+    tools:showIn="@layout/activity_description1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/ingrediants1"></include>
+
+            <include layout="@layout/methods1"></include>
+            <ImageButton
+                android:paddingTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:id="@+id/btn1"
+                android:shape="oval"
+                android:layout_gravity="center"
+                android:background="@drawable/sha"
+                android:soundEffectsEnabled="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
